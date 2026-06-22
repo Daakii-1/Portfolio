@@ -59,7 +59,7 @@ body{
 }
 .hero-content p{
     font-weight: 400;
-    line-height: 25px;
+    line-height: 22px;
     font-size: 20px;
 }
 .btn-cont{
@@ -106,7 +106,7 @@ body{
 .about-me p{
     margin-top: 10px;
     text-align: justify;
-    width: 100%;
+    width: 70%;
     max-width: 100%;
     font-size: 1.1rem;
    font-weight: 400;
@@ -131,7 +131,6 @@ body{
     font-weight: 600;
 }
 .edu-card{
-    width: 100% !important;
     width: 350px;
     padding: 20px;
     border-radius: 14px;
@@ -167,7 +166,6 @@ body{
     justify-content: center;
     padding: 20px;
     min-height: 70px; 
-    width: 100%;
     width: 350px;
     flex-direction: column;
     gap: 10px;
@@ -202,8 +200,7 @@ body{
 {
     background-color: #04464b94;
     border: 2px solid #183f42;
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
     padding: 20px;
     border-radius: 16px;
     display: flex;
@@ -364,8 +361,4 @@ body{
                 border-color 0.3s ease, 
                 box-shadow 0.3s ease;
 }
-html, body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-}
+
