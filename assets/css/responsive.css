@@ -1,0 +1,184 @@
+@media (min-width:577px) {
+    .hero-content h1 {
+    font-weight: 600;
+    font-size: 52px;
+    width: 85%;
+}
+.hero-content p {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 25px;
+}
+.about-me p {
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 60%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.project-card h5{
+    font-size: 30px;
+    font-weight: 600;
+}
+.project-card p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.pro-grid{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.project-card a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+}
+@media (min-width:993px ) {
+      .hero-content h1 {
+    font-weight: 600;
+    font-size: 60px;
+    width: 70%;
+}
+.hero-content p {
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 30px;
+}
+.btn-cont {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+    width: 180px;
+}
+.about-me{
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.about-me img{
+    width: 280px;
+}
+.edu-content{
+    flex-direction: row;
+}
+.edu-card{
+    height: 430px;
+}
+.contact-cont{
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+}
+.contact-info{
+    height: 420px;
+    width: 50%;
+}
+.contact-form{
+    margin-top: 30px;
+    height: 420px;
+    width: 50%;
+}
+.footer{
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 10%
+}
+.socials {
+        font-size: 36px;
+}
+}
+@media (min-width:1400px) {
+    .header{
+        padding: 0 50px;
+    }
+    .name a {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .navbar{
+        font-size:  25px;
+        font-weight: 500;
+    }
+    .hero-content{
+        width: 70%;
+    }
+     .hero-content h1{
+        font-size: 70px;
+     }
+     .hero-content p{
+        font-size: 40px;
+        line-height: 50px;
+     }
+     .btn-cont{
+        font-size: 25px;
+        width: 220px;
+     }
+     .about-me p{
+        font-size: 25px;
+        align-items: center;
+        width: 70%;
+        padding-left: 40px;
+     }
+     .education h2{
+        font-size: 50px;
+     }
+     .edu-content{
+        gap: 80px;
+     }
+     .about h2{
+        font-size: 50px;
+     }
+     .card-body h5{
+        font-size: 26px;
+        font-weight: 600;
+     }
+     .card-body h6{
+        font-size: 20px;
+        font-weight: 400;
+     }
+     .card-text{
+        font-size: 20px;
+        font-weight: 500;
+     }
+     .skills h3{
+        font-size: 50px;
+     }
+     .skill-card h5{
+        font-size: 24px;
+        font-weight: bold;
+     }
+     .skill-card p{
+        font-size: 22px;
+        font-weight: 400;
+     }
+     .projects h3{
+        font-size: 50px;
+     }
+     .pro-grid{
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px;
+     }
+     .project-card p{
+        font-size: 20px;
+        font-weight: 400;
+     }
+     .project-card a{
+        font-size: 23px;
+        font-weight: 500;
+        width: 120px;
+     }
+     .contact-form{
+        font-size: 18px;
+        font-weight: 600;
+     }
+     .form-control::placeholder{
+        font-size: 18px;
+     }
+     .btn{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 7px !important;
+     }
+}
