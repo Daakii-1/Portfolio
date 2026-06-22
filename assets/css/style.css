@@ -129,6 +129,7 @@ body{
     font-weight: 600;
 }
 .edu-card{
+    width: 450px;
     max-width: 95%;
     padding: 20px;
     border-radius: 14px;
