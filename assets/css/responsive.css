@@ -16,6 +16,9 @@
     font-size: 1.1rem;
     font-weight: 500;
 }
+.project-card{
+    max-width: 330px;
+}
 .project-card h5{
     font-size: 30px;
     font-weight: 600;
