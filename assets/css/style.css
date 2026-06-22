@@ -12,6 +12,7 @@ body{
     color: #ffffff !important;
     background-position: center;
     background-color: #121214;
+    overflow-x: hidden;
 }
 .header{
     width: 100%;
@@ -130,6 +131,7 @@ body{
     font-weight: 600;
 }
 .edu-card{
+    width: 100% !important;
     width: 450px;
     padding: 20px;
     border-radius: 14px;
@@ -165,6 +167,7 @@ body{
     justify-content: center;
     padding: 20px;
     min-height: 70px; 
+    width: 100%;
     width: 350px;
     flex-direction: column;
     gap: 10px;
