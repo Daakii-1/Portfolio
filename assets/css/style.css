@@ -107,7 +107,8 @@ body{
 .about-me p{
     margin-top: 10px;
     text-align: justify;
-    max-width: 60%;
+    width: 100%;
+    max-width: 100%;
     font-size: 1.1rem;
    font-weight: 400;
    margin-bottom: 30px;
